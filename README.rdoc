@@ -1,28 +1,27 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Products API is a simple Ruby on Rails database application with a REST API that will expose CRUD operations (create, read, update, delete).
 
-Things you may want to cover:
+* Ruby version: 2.3.0
 
-* Ruby version
+* System dependencies: TODO
 
-* System dependencies
+* Configuration: TODO
 
-* Configuration
+* Database creation: TODO
 
-* Database creation
+* Database initialization: "rake db:migrate"
 
-* Database initialization
+* How to run the test suite: "rake test"
 
-* How to run the test suite
+* Deployment instructions: TODO
 
-* Services (job queues, cache servers, search engines, etc.)
+== Code Status
 
-* Deployment instructions
+Master branch:
 
-* ...
+{<img src="https://travis-ci.org/msayson/productApi.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/msayson/productApi]
 
+Dev branch:
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+{<img src="https://travis-ci.org/msayson/productApi.svg?branch=dev" alt="Build Status" />}[https://travis-ci.org/msayson/productApi]
