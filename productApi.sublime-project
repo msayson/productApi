@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [".bundle", "bin", "concerns", "log", "tmp", "vendor"],
+			"file_exclude_patterns": [".keep"]
+		}
+	],
+	"settings":
+	{
+
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true
+	}
+}
