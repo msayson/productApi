@@ -1,0 +1,18 @@
+language: ruby
+
+cache:
+  bundler: true
+
+before_install:
+  - gem install bundler
+  - "rm ${BUNDLE_GEMFILE}.lock"
+
+before_script:
+  - bundle update
+  - bundle exec "rake db:migrate"
+
+rvm:
+- 2.3.0
+
+notifications:
+  email: false
