@@ -3,7 +3,7 @@ Rails.application.configure do
 
   # The test environment is used exclusively to run your application's
   # test suite. You never need to work with it otherwise. Remember that
-  # your test database is "scratch space" for the test suite and is wiped
+  # your test database is 'scratch space' for the test suite and is wiped
   # and recreated between test runs. Don't rely on the data there!
   config.cache_classes = true
 
@@ -39,4 +39,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Set secret key using environment variable
+  config.secret_key_base = ENV['SECRET_KEY_BASE']
 end
