@@ -9,7 +9,8 @@ before_install:
 
 before_script:
   - bundle update
-  - bundle exec "rake db:migrate"
+  - bundle exec "rake db:migrate RAILS_ENV=test"
+  - export SECRET_KEY_BASE=rake secret
 
 rvm:
 - 2.3.0
